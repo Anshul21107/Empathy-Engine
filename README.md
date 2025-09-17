@@ -47,22 +47,35 @@ It combines **sentiment analysis** with **speech synthesis parameters** (rate, v
 
 ## ▶️ Usage
 
-### 1️⃣ Install dependencies
+Follow these steps to set up and run the project:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Anshul21107/Empathy-Engine
+cd Empathy-Engine
+```
+
+### 2️⃣Create & Activate Virtual Environment
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run Backend (FastAPI)
+### 4️⃣Run Backend (FastAPI)
 ```bash
-uvicorn app:app --reload
+python app.py
 ```
-
-### 3️⃣ Run Frontend (Streamlit)
+### 5️⃣ Run Frontend (Streamlit)
 ```bash
 streamlit run streamlit_app.py
 ```
 
-### 4️⃣ Example
+### Example
 - Input: `"I am so excited about this new project!"`  
 - Detected: Emotion = `happy`, Intensity ≈ `0.9`  
 - Output: Faster, louder, female-voiced audio with happy tone.  
