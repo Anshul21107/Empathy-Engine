@@ -90,6 +90,23 @@ streamlit run streamlit_app.py
 - Extended TTS to **female voice selection** (instead of default male).  
 
 --- 
+## 📸 Screenshots
+
+### 🔹 FastAPI Endpoint
+![FastAPI ](screenshots/fast-api.png)
+
+### 🔹 Streamlit UI
+![UI design](screenshots/streamlit-UI.png)
+
+
+## 🔊 Sample Audio Output
+
+Here’s an example of **emotionally generated speech of this text: "I am deeply saddened by this unfortunate event. It's truly heartbreaking."**:
+
+<audio controls>
+  <source src="temp_audio.wav" type="audio/wav">
+</audio>
+
 
 ---
 
