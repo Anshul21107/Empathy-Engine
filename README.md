@@ -1,4 +1,4 @@
-# 🎙️ Empathy Engine – Emotion-Aware Text-to-Speech
+# 🎙️ Empathy Engine  (Assignment)
 
 This project is an **Emotion-Aware Text-to-Speech (TTS) system** that detects emotions from input text and generates **emotionally aligned speech**.  
 It combines **sentiment analysis** with **speech synthesis parameters** (rate, volume, voice) to make the output sound more human-like and empathetic.  
@@ -52,8 +52,6 @@ It combines **sentiment analysis** with **speech synthesis parameters** (rate, v
 pip install -r requirements.txt
 ```
 
-*(requirements.txt should include: `fastapi`, `uvicorn`, `streamlit`, `requests`, `textblob`, `pyttsx3`)*  
-
 ### 2️⃣ Run Backend (FastAPI)
 ```bash
 uvicorn app:app --reload
@@ -84,36 +82,16 @@ streamlit run streamlit_app.py
 
 ---
 
-## 💡 Interview Talking Points
+## Points
 - Implemented **sentiment-based prosody control** (rate, volume, voice).  
 - Used **FastAPI for scalable backend** + **Streamlit for quick prototyping UI**.  
 - Showed ability to integrate **NLP + TTS + Web APIs**.  
 - Designed `EMOTION_MAP` for **realistic emotion simulation**.  
 - Extended TTS to **female voice selection** (instead of default male).  
 
----
-
-## 🖼️ System Architecture
-```mermaid
-flowchart LR
-    A[User Input] --> B[Streamlit Frontend]
-    B --> C[FastAPI Backend]
-    C --> D[Emotion Detector (TextBlob)]
-    D --> E[Config: EMOTION_MAP]
-    E --> F[TTS Engine (pyttsx3)]
-    F --> G[Audio Output (WAV)]
-    G --> B
-```
-
----
-
-## ✨ Future Improvements
-- Add more emotions (angry, calm, surprised).  
-- Support **multilingual emotion detection**.  
-- Use advanced NLP models (Transformers, BERT) for emotion classification.  
-- Add pitch control for more natural variation.  
+--- 
 
 ---
 
 ## 👨‍💻 Author
-Developed by **[Your Name]** – demonstrating integration of **NLP, TTS, and Web frameworks** into a complete empathetic AI assistant.  
+Developed by **Anshul Katiyar**  
