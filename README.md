@@ -103,9 +103,7 @@ streamlit run streamlit_app.py
 
 Here’s an example of **emotionally generated speech of this text: "I am deeply saddened by this unfortunate event. It's truly heartbreaking."**:
 
-<audio controls>
-  <source src="temp_audio.wav" type="audio/wav">
-</audio>
+🎧 [▶️ Listen to This Example](temp_audio.wav)
 
 
 ---
